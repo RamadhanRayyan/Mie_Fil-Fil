@@ -62,7 +62,7 @@ const filteredMenu = computed(() => {
       class="my-5"
     >
       <template #links>
-        <UInput v-model="search" placeholder="Cari menu..." class="w-full" />
+        <UInput v-model="search" placeholder="Cari menu..." class="w-fit" />
         <USelect
           placeholder="Pilih kategori"
           v-model="categoryFilter"
